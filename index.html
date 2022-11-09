@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Mishka - Главная</title>
+</head>
+
+<body>
+    <header class="header-top">
+
+         <!--MOBILE MENU-->
+
+         <div class="mobile-menu">
+
+            <ul class="mobile-menu__items">
+                <li class="mobile-menu__item">
+                    <a href="/catalog.html" class="mobile-menu__link">Каталог товаров</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="/form.html" class="mobile-menu__link">Вязание на заказ</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="#" class="mobile-menu__link">Поиск по сайту</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="#" class="mobile-menu__link mobile-menu__no-border">Корзина: пока пуста</a>
+                </li>
+            </ul>
+        </div>
+        <nav class="header-top__navbar navbar">
+            <div class="navbar__upper">
+
+               
+                <a href="index.html" class="navbar__logo navbar__hide">
+                    <img src="/img/icons/mishka-logo-desktop.svg.png" alt="logo image" class="navbar__logo-img">
+                </a>
+
+                 
+
+
+                <div class="navbar__mobile-menu _container">
+
+                    <a href="index.html" class="navbar__logo-mobile">
+                        <img src="/img/icons/mishka-logo-mobile.png" alt="logo icon">
+                    </a>
+
+                    <div class="navbar__open-btn _container">
+                        <img src="/img/icons/menu.png" alt="menu icon" class="navbar__open-img">
+                    </div>
+
+                    <div class="navbar__close-btn _container">
+                        <img src="/img/icons/menu-close.svg.png" alt="menu icon" class="navbar__open-img">
+                    </div>
+
+              
+                </div>
+
+
+                <div class="navbar__content _container">
+
+
+                    <a href="index.html" class="navbar__logo-tablet">
+                        <img src="/img/icons/mishka-logo-tablet.png" alt="logo icon" class="navbar__logo-tablet-img">
+                    </a>
+
+
+                    <ul class="navbar__links">
+                        <li class="navbar__item navbar__main-item"><a href="catalog.html"
+                                class="navbar__link navbar__catalog">Каталог товаров</a></li>
+                        <li class="navbar__item navbar__main-item"><a href="/form.html" class="navbar__link">Вязание на заказ</a>
+                        </li>
+                        <li class="navbar__item navbar__hide"><a href="#" class="navbar__link">Новые поступления</a>
+                        </li>
+                        <li class="navbar__item navbar__hide"><a href="#" class="navbar__link">Распродажа</a></li>
+                    </ul>
+
+                    <div class="navbar__section">
+                        <div class="navbar__divider"></div>
+                        <div class="navbar__search">
+                            <a href="#" class="navbar__search-link">
+                                <svg class="navbar__search-icon" viewBox="0 0 20 20">
+                                    <path
+                                        d="M12.323,2.398c-0.741-0.312-1.523-0.472-2.319-0.472c-2.394,0-4.544,1.423-5.476,3.625C3.907,7.013,3.896,8.629,4.49,10.102c0.528,1.304,1.494,2.333,2.72,2.99L5.467,17.33c-0.113,0.273,0.018,0.59,0.292,0.703c0.068,0.027,0.137,0.041,0.206,0.041c0.211,0,0.412-0.127,0.498-0.334l1.74-4.23c0.583,0.186,1.18,0.309,1.795,0.309c2.394,0,4.544-1.424,5.478-3.629C16.755,7.173,15.342,3.68,12.323,2.398z M14.488,9.77c-0.769,1.807-2.529,2.975-4.49,2.975c-0.651,0-1.291-0.131-1.897-0.387c-0.002-0.004-0.002-0.004-0.002-0.004c-0.003,0-0.003,0-0.003,0s0,0,0,0c-1.195-0.508-2.121-1.452-2.607-2.656c-0.489-1.205-0.477-2.53,0.03-3.727c0.764-1.805,2.525-2.969,4.487-2.969c0.651,0,1.292,0.129,1.898,0.386C14.374,4.438,15.533,7.3,14.488,9.77z">
+                                    </path>
+                                </svg> </a>
+                        </div>
+
+                        <div class="navbar__basket">
+                            <div class="navbar__basket-icon">
+                                <a href="#" class="navbar__basket-link">
+                                    <svg class="navbar__basket-icon" viewBox="0 0 20 20">
+                                        <path
+                                            d="M17.696,9.368H2.305c-0.189,0-0.367,0.092-0.478,0.245c-0.11,0.155-0.141,0.352-0.08,0.532l2.334,6.918c0.081,0.238,0.305,0.4,0.556,0.4h10.735c0.253,0,0.478-0.162,0.557-0.402l2.323-6.917c0.062-0.179,0.03-0.376-0.079-0.531C18.062,9.459,17.886,9.368,17.696,9.368z M14.95,16.287H5.062l-1.938-5.743h13.753L14.95,16.287z">
+                                        </path>
+                                        <path
+                                            d="M6.345,7.369c0.325,0,0.588-0.263,0.588-0.588c0-1.691,1.376-3.067,3.067-3.067c1.691,0,3.067,1.376,3.067,3.067c0,0.325,0.264,0.588,0.588,0.588c0.326,0,0.589-0.263,0.589-0.588c0-2.34-1.904-4.243-4.244-4.243c-2.34,0-4.244,1.903-4.244,4.243C5.757,7.106,6.02,7.369,6.345,7.369z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="navbar__basket-text">
+                                <a href="#" class="navbar__basket-text-link">
+                                    Корзина: <span class="navbar__basket-state">пока пуста</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <a href="#" class="navbar__delivery">Бесплатная доставка по России</a>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <!--HEADER----------------------------------------------------------------------->
+        <section class="header">
+            <div class="_container">
+                <h1 class="header__title">
+                    Милые штуки ручной работы для дома
+                </h1>
+            </div>
+
+            <div class="header__bg">
+                <img src="/img/photos/header-desktop.jpg" alt="background image" class="header__bg-image">
+            </div>
+
+            <div class="header__blocks _container">
+                <div class="header__interier interier">
+                    <a href="#" class="interier__link">Предметы интерьера</a>
+                    <img src="/img/icons/interior.svg.png" alt="icon" class="interier__icon">
+                </div>
+
+                <div class="header__toys toys">
+                    <a href="#" class="toys__link">Детские игрушки</a>
+                    <img src="/img/icons/toy-svg.png" alt="icon" class="toys__icon">
+                </div>
+
+            </div>
+
+            <div class="header__border">
+                <img src="/img/photos/zigzag-fill-desktop.png" alt="" class="header__zigzag">
+            </div>
+
+
+        </section>
+    </header>
+
+    <!--PRODUCTS-------------------------------------------------------------------->
+
+    <section class="products">
+
+        <div class="products__wrapper _container">
+
+            <div class="products__heading">
+                <span class="products__subtitle">ТОВАР НЕДЕЛИ</span>
+                <h2 class="products__title">Вязаные корзинки</h2>
+            </div>
+
+
+            <div class="products__description description">
+
+                <div class="description__wrapper">
+                    <div class="description__top">
+
+                        <div class="description__text-info">
+                            <p class="description__text">
+                                Экологически чистая пряжа, ручная работа.
+                                Доступны в шести расцветках и трех размерах.
+                            </p>
+
+                            <div class="description__info">
+                                <table class="description__table table">
+                                    <tr class="table__tr">
+                                        <td class="table__td">Цвет:</td>
+                                        <td class="table__td">"Тиффани"/Серый</td>
+                                    </tr>
+
+                                    <tr class="table__tr">
+                                        <td class="table__td">Диаметр:</td>
+                                        <td class="table__td">25см</td>
+                                    </tr>
+
+                                    <tr class="table__tr">
+                                        <td class="table__td">Высота:</td>
+                                        <td class="table__td">15см</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+
+                            <div class="description__bottom">
+                                <span class="description__price">Цена: 990 руб.</span>
+                                <a href="#" class="description__button button">ЗАКАЗАТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="products__img-wrapper">
+                        <div class="products__image"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--ABOUT---------------------------------------------------------------------------->
+
+    <section class="about">
+
+        <div class="about__border">
+            <img src="/img/photos/zigzag-line-desktop.svg.jpg.png" alt="" class="about__line">
+        </div>
+
+        <div class="about__container">
+
+            <div class="about__wrapper _container">
+                <h2 class="about__title">Коротко о нас:</h2>
+                <div class="about__blocks">
+
+                    <div class="about__left">
+
+                        <div class="about__block">
+                            <div class="about__icon">
+                                <img src="/img/icons/icon-1.svg.png" alt="" class="about__img">
+                            </div>
+                            <div class="about__text">
+                                Экологически<br> чистые материалы
+                            </div>
+                        </div>
+
+                        <div class="about__block">
+                            <div class="about__icon">
+                                <img src="/img/icons/icon-3.svg.png" alt="" class="about__img">
+                            </div>
+                            <div class="about__text">
+                                Скандинавский стиль<br> по российской цене
+                            </div>
+                        </div>
+
+                        <div class="about__block">
+                            <div class="about__icon">
+                                <img src="/img/icons/icon-5.svg.png" alt="" class="about__img">
+                            </div>
+                            <div class="about__text">
+                                Увеличивает<br> лайки на фотографиях
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about__right">
+
+                        <div class="about__block">
+                            <div class="about__icon">
+                                <img src="/img/icons/icon-2.svg.png" alt="" class="about__img">
+                            </div>
+                            <div class="about__text">
+                                Связано вручную с<br> любовью и умилением
+                            </div>
+                        </div>
+
+                        <div class="about__block">
+                            <div class="about__icon">
+                                <img src="/img/icons/icon-4.svg.png" alt="" class="about__img">
+                            </div>
+                            <div class="about__text">
+                                Поддержка отечественного<br> производителя
+                            </div>
+                        </div>
+
+                        <div class="about__block">
+                            <div class="about__icon">
+                                <img src="/img/icons/icon-6.svg.png" alt="" class="about__img">
+                            </div>
+                            <div class="about__text">
+                                Поставляется в<br> подарочной упаковке
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--TESTIMONIALS------------------------------------------------------------------------------>
+
+    <section class="testimonial">
+
+        <div class="testimonial__img-relative">
+            <img src="/img/photos/review.jpg" alt="photo" class="testimonial__img">
+        </div>
+
+
+        <div class="testimonial__container _container">
+
+            <div class="testimonial__image">
+                <img src="/img/photos/review.jpg" alt="photo" class="testimonial__img">
+            </div>
+
+            <div class="testimonial__align">
+
+                <div class="testimonial__wrapper">
+
+                    <div class="testimonial__text-block">
+                        <h2 class="testimonial__title">Отзывы:</h2>
+                        <p class="testimonial__text">
+                            Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков,
+                            как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке,
+                            и мои фотографии сразу стали более стильными, а также набирают больше лайков!
+                        </p>
+
+                        <div class="testimonial__name-block">
+                            <p class="testimonial__name">
+                                Анастасия Красильникова
+                            </p>
+                            <p class="testimonial__insta">
+                                @misssssiskras
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__elements-wrap">
+                        <div class="testimonial__elements">
+                            <div class="testimonial__button button_write">
+                                <a href="#" class=" button testimonial__button-write">НАПИСАТЬ</a>
+                            </div>
+
+                            <div class="testimonial__arrows">
+                                <div class="testimonial__arrow-wrap">
+                                    <button class="testimonial__arrow">
+                                        <img src="/img/icons/arrow_left.png" alt="arrow icon"
+                                            class="testimonial__arrow-img">
+                                    </button>
+                                </div>
+
+                                <div class="testimonial__arrow-wrap">
+                                    <button class="testimonial__arrow">
+                                        <img src="/img/icons/arrow_right.png" alt="arrow icon"
+                                            class="testimonial__arrow-img">
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACTS------------------------------------------------------------------------------------------------------>
+
+    <section class="contacts">
+
+        <div class="contacts__border _container"></div>
+
+
+        <div class="contacts__container _container">
+
+            <div class="contacts__left-align">
+
+                <div class="contacts__left-wrap">
+
+                    <div class="contacts__left">
+                        <h2 class="contacts__title big-title">Контакты</h2>
+                        <div class="contacts__address-wrap">
+                            <div class="contacts__address-line">
+                                <div class="contacts__line-title">email:</div>
+                                <div class="contacts__line-data contacts__bottom-border contacts__email">
+                                    info@mimimishkashop.ru</div>
+                            </div>
+
+                            <div class="contacts__address-line">
+                                <div class="contacts__line-title">адрес:</div>
+                                <div class="contacts__line-data">г. Санкт-Петербург <br>
+                                    ул. Большая Конюшенная <br>
+                                    д. 19/8 офис 101
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contacts__right-wrap">
+
+                <div class="contacts__right">
+                    <div class="contacts__map">
+                        <img src="/img/photos/map-pin.png" alt="map image" class="contacts__map-img">
+                    </div>
+
+                    <div class="contacts__button"> <button class="contacts__btn button">НАПИШИТЕ НАМ</button> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-------------------------------------------------------------------------------------------->
+
+    <footer class="footer">
+        <div class="footer__content">
+
+            <div class="footer__content-align">
+                <div class="footer__container _container">
+                    <div class="footer__divider"></div>
+                    <div class="footer__wrap">
+
+                        <div class="footer__logo">
+                            <a href="index.html" class="footer__logo-link">
+                                <svg class="footer__logo-icon" id="Layer_1" data-name="Layer 1"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M24.08,6.56a2.23,2.23,0,0,0,.85-.14,2.43,2.43,0,0,0,1.49-3.11c-.09-1.8,0-3.37-2.54-3.31s-2.14,1.77-2.17,3.39S21.57,6.83,24.08,6.56Z" />
+                                    <path
+                                        d="M18.67,8.47c0-1.29.42-3.24-1.76-3.24-1.68,0-2.79.88-3.17,2.88a30.81,30.81,0,0,1-3.68,10.73C8.47,15.18,7.17,12,5.68,8.84,5,7.4,4.79,5.17,2.16,5.81-.2,6.38,0,8.27,0,10c.22,6.31.5,12.61.63,18.92,0,1.61.52,2.38,2.21,2.39S5,30.3,5,28.81V20.4c3.83,1.07,1.1,7.25,5.66,6.87,3.67-.28,1.8-4.83,4.13-7V32.36h3.93c.28-1,.92-2.1.8-3.1C18.62,22.35,18.9,15.4,18.67,8.47Z" />
+                                    <path
+                                        d="M60,8c-.09-1.46-.37-2.47-2.2-2.34a2,2,0,0,0-.42,0,2.21,2.21,0,0,0-1.91,2.47,58.32,58.32,0,0,0,.67,6.6c.38,2.23-.95,2.54-2.73,2.87-2.42.45-2.22-1-2.31-2.49-.16-2.64-.4-5.32-.6-8-.09-1.19.38-2.76-1.77-2.6-1.44.1-2.58.6-2.44,2.29.62,7.42-.5,14.88.62,22.29.19,1.37.25,2.51,2.19,2.23a2.12,2.12,0,0,0,.44-.05,2.16,2.16,0,0,0,1.66-2.58C51.06,27,51,25.26,51,23.52,51,22,49.93,20,53.14,19.83c2.68-.11,3,1.06,3.6,3.17.82,3.1-1.19,6.53,1.31,9.36l1,0C61,31,61.43,29,61.31,27,60.92,20.65,60.41,14.34,60,8Z" />
+                                    <path
+                                        d="M37.8,16.28c-1.8-.05-3.9.35-4-2.24-.1-2.42-1.61-5.34.73-7.1a3.41,3.41,0,0,1,1.06-.57,3.28,3.28,0,0,1,4.13,2.1c.46,1,1.6.82,2.58.44s1.76-1,1.58-2.07a2.54,2.54,0,0,0-1.77-2.06c-2.75-1.07-5.47-.66-8.19,0C29.32,5.9,28.7,7.7,29.5,15.06c.42,4,3.31,3.38,5.78,3.24,4.07-.24,5.25,1.7,5.07,5.18a33.31,33.31,0,0,0,.11,4.24c.16,2.16-1.09,2.71-3,2.75s-2.68-.73-2.53-2.54c.11-1.34,1.43-3.34-1.57-3.34-2.63,0-2.43,1.94-2.71,3.68-.26,1.52.49,2.74.85,4.09l8.87,0C45.26,30.69,44.81,27,44.58,23,44.24,17.28,43.73,16.46,37.8,16.28Z" />
+                                    <path
+                                        d="M77.07,21.32c-4.42-5.56-1.73-10.39,1.16-15.39.48-.83,2-1.33.91-3.16-7.51,1.91-6.65,10.35-11.93,14.57-.29-3.83-.4-7.24-.87-10.6-.18-1.26.72-3.61-1.94-3.5C62,3.34,61.9,5.18,62,7.05c.38,6.93,1.38,13.8,1.11,20.8,0,1.22-1.3,3.45,1.64,3.52,2.66.07,2.87-2.06,2.76-3.64-.25-3.37,1.29-5.71,4-8,1.34,3.14,2.48,5.91,3.7,8.65.78,1.67.87,4.24,3.85,3s.58-3.26.23-4.81A13.2,13.2,0,0,0,77.07,21.32Z" />
+                                    <path
+                                        d="M27.59,24.67c-.34-4.46-.59-8.67-1-12.94-.11-1.2.89-3.08-1.66-3.15-2.72-.07-2.67,1.64-2.56,3.51.23,4.11.2,8.24.63,12.32C23.23,26.79,22,31,25,31.09,30,31.26,26.52,26.67,27.59,24.67Z" />
+                                    <path
+                                        d="M98.18,10.54c-.46-2,0-4.18-2.38-5.32C90.39,2.6,81.72,7.46,81.64,13.3c-.07,5.05.18,10.16.27,15.16,0,1.32,0,2.79,1.92,2.57,1.44-.16,2.8-.73,2.69-2.68-.12-2.2,0-4.42,0-6.63,0-1-.24-2.62,1.55-2.26,2.88.56,7.52-.69,6.15,5a12.48,12.48,0,0,0,.21,3.76c.12.91-1,2.35,1.12,2.35,1.39,0,2.75-.44,2.86-2,.14-2-.11-4.12,0-6.12.07-1.37-.84-3.45,1.92-3.45V17.12C96.78,15.82,98.69,12.77,98.18,10.54Zm-7.74,6.71c-3-.18-5-.39-4.82-3.92S86.76,6.87,91,6.92s1.72,3.56,2.62,5C93.23,14.35,95.39,17.55,90.44,17.25Z" />
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="footer__socials">
+                            <div class="footer__social-icon">
+                                <a href="" class="footer__social-link footer__insta-link">
+                                    <svg class="footer__icon" id="Layer_1" data-name="Layer 1"
+                                        xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 76 76">
+                                        <path
+                                            d="M14.51,26a16.53,16.53,0,0,1,1.79-5.64c2.42-3.95,6.21-5.46,10.57-5.57,5.95-.15,11.92-.14,17.87,0,4,.1,7.64,1.43,10.1,4.93a13.18,13.18,0,0,1,2.21,7.51c.09,5.72.13,11.45,0,17.17-.11,4.6-1.71,8.6-6,10.9a13.78,13.78,0,0,1-6.41,1.58c-5.88.06-11.76.12-17.63,0-4.41-.1-8.24-1.59-10.69-5.59a16.41,16.41,0,0,1-1.79-5.63Zm21.33-7.18c-2.92,0-5.84-.05-8.76,0C22.52,19,19.72,21.1,18.89,25a12.18,12.18,0,0,0-.31,2.55c0,5.53-.11,11.06,0,16.58s2.89,8.44,8.2,8.64c6,.22,12,.2,18,0,4.42-.14,7-2.27,7.89-6.09A10.44,10.44,0,0,0,53,44.6c0-6.3.38-12.61-.19-18.9A7.12,7.12,0,0,0,46.23,19c-3.46-.45-6.93-.12-10.39-.19Z" />
+                                        <path
+                                            d="M46.82,35.91a11,11,0,1,1-11-11A11,11,0,0,1,46.82,35.91Zm-4.09-.06a7,7,0,1,0-7.14,6.86h.14A6.93,6.93,0,0,0,42.73,35.85Z" />
+                                        <path d="M47.12,22a2.58,2.58,0,1,1-2.67,2.63A2.67,2.67,0,0,1,47.12,22Z" />
+                                        <path
+                                            d="M57,71.65H14.61A14.62,14.62,0,0,1,0,57V14.61A14.62,14.62,0,0,1,14.61,0H57A14.62,14.62,0,0,1,71.65,14.61V57A14.62,14.62,0,0,1,57,71.65ZM14.61,4A10.62,10.62,0,0,0,4,14.61V57A10.62,10.62,0,0,0,14.61,67.65H57A10.62,10.62,0,0,0,67.65,57V14.61A10.62,10.62,0,0,0,57,4Z" />
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="footer__social-icon">
+                                <a href="" class="footer__social-link footer__fb-link">
+                                    <svg class="footer__icon" id="Layer_1" data-name="Layer 1"
+                                        xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 76 76">
+                                        <path
+                                            d="M57,0H14.6A14.68,14.68,0,0,0,0,14.6V57A14.62,14.62,0,0,0,14.6,71.6H57A14.62,14.62,0,0,0,71.6,57V14.6A14.55,14.55,0,0,0,57,0ZM67.7,57A10.67,10.67,0,0,1,57.1,67.6H14.6A10.61,10.61,0,0,1,4,57V14.6A10.67,10.67,0,0,1,14.6,4H57A10.61,10.61,0,0,1,67.6,14.6V57Z" />
+                                        <path
+                                            d="M29.6,24.6V31H23.3v7.8h6.3V58.6H39V38.8h6.3L47.1,31H39V25.7c0-2.2,1.2-4.5,4.4-4.5h3.8V13H41.5C33.5,13,29.6,17.8,29.6,24.6Z" />
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="footer__social-icon">
+                                <a href="" class="footer__social-link footer__twitter-link">
+                                    <svg class="footer__twitter" id="Layer_1" data-name="Layer 1"
+                                        xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 76 76">
+                                        <defs>
+                                            <style>
+
+                                            </style>
+                                        </defs>
+                                        <path
+                                            d="M15,48.93a17.64,17.64,0,0,0,12.29-3.34c-.8-.2-1.49-.34-2.14-.55a8.42,8.42,0,0,1-5.29-4.76c-.33-.73-.26-.79.53-.77A6.38,6.38,0,0,0,23,39.27a8.67,8.67,0,0,1-3.68-2,8.28,8.28,0,0,1-2.74-5.57c-.06-.89.05-.95.85-.59a6.08,6.08,0,0,0,2.57.6c-.61-.71-1.27-1.21-1.75-1.9a8.47,8.47,0,0,1-.89-8.62c.34-.81.48-.84,1.06-.18a24.47,24.47,0,0,0,10.37,7,24.3,24.3,0,0,0,5.53,1.22c1,.1,1,0,.94-.95a8.76,8.76,0,0,1,4.62-8.55,8.66,8.66,0,0,1,9.63,1.16,1.51,1.51,0,0,0,1.58.38,18.54,18.54,0,0,0,3.81-1.47c.18-.1.35-.31.7-.18A9.25,9.25,0,0,1,52.46,24a16.7,16.7,0,0,0,4.15-1.12,1.33,1.33,0,0,1-.44,1,15.16,15.16,0,0,1-2.93,3,1.61,1.61,0,0,0-.69,1.47A24.18,24.18,0,0,1,47.4,43.53a22.93,22.93,0,0,1-16.12,9.18,24.44,24.44,0,0,1-15.46-3.13c-.18-.1-.34-.21-.51-.32A3,3,0,0,1,15,48.93Z" />
+                                        <rect class="cls-1" x="2" y="2" width="67.65" height="67.65" rx="12.61" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="footer__created-wrap">
+                            <div class="footer__created-by">Разработано</div>
+                            <div class="footer__academy">
+                                <img src="/img/icons/htmlacademy.png" alt="" class="footer__academy-icon">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
