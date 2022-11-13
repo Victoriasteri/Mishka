@@ -367,6 +367,7 @@ body {
       display: block;
       position: absolute;
       top: 21px;
+      z-index: 200;
     }
 
     &__catalog {

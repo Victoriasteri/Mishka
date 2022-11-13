@@ -296,6 +296,7 @@ body {
     display: block;
     position: absolute;
     top: 21px;
+    z-index: 200;
   }
   .navbar__catalog {
     padding: 0px;
@@ -511,7 +512,7 @@ body {
   top: 44px;
 }
 .products__image {
-  background-image: url("/img/photos/triple-set-desktop.jpg");
+  background-image: url("./img/photos/triple-set-desktop.jpg");
   width: 525px;
   height: 636px;
 }
@@ -835,7 +836,7 @@ body {
   }
 }
 .contacts__border {
-  background-image: url("/img/icons/zigzag-line-gray.png");
+  background-image: url("./img/icons/zigzag-line-gray.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -895,7 +896,7 @@ body {
   margin-bottom: -200px;
 }
 .contacts__map {
-  background-image: url("/img/photos/map-pin.png");
+  background-image: url("./img/photos/map-pin.png");
   width: 525px;
   height: 457px;
   background-position: center;
