@@ -664,7 +664,7 @@ body {
 
 
   &__image {
-    background-image: url('/img/photos/triple-set-desktop.jpg');
+    background-image: url('./img/photos/triple-set-desktop.jpg');
     width: 525px;
     height: 636px;
   }
@@ -1107,7 +1107,7 @@ body {
   // height: 670px;
 
   &__border {
-    background-image: url('/img/icons/zigzag-line-gray.png');
+    background-image: url('./img/icons/zigzag-line-gray.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1181,7 +1181,7 @@ body {
   }
 
   &__map {
-    background-image: url('/img/photos/map-pin.png');
+    background-image: url('./img/photos/map-pin.png');
     width: 525px;
     height: 457px;
     background-position: center;
