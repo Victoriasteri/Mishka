@@ -48,6 +48,7 @@
 }
 .menu-position {
   top: 83px;
+  transition: 0.3s ease;
 }
 
 .display {
@@ -56,4 +57,9 @@
 
 .hide {
   display: none;
+}
+
+.margin {
+  margin-bottom: 312px;
+  transition: 0.3s ease;
 }/*# sourceMappingURL=mobile-menu.css.map */

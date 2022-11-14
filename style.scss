@@ -341,18 +341,20 @@ body {
 
   //MOBILE MENU STYLES-----------------------------------------------------------
 
+
+
   &__open-btn,
   &__close-btn {
     position: absolute;
     right: 0;
-    top: 33px;
+    top: 27px;
   }
 
 
-  &__close-btn {
-    display: none;
-  }
-
+&__close-img {
+  display: none;
+}
+ 
 
 }
 

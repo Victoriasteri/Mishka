@@ -282,9 +282,9 @@ body {
 .navbar__open-btn, .navbar__close-btn {
   position: absolute;
   right: 0;
-  top: 33px;
+  top: 27px;
 }
-.navbar__close-btn {
+.navbar__close-img {
   display: none;
 }
 
