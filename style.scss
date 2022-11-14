@@ -50,6 +50,22 @@ body {
   overflow-x: hidden;
 }
 
+//JS classes-------------------------
+
+.menu-position {
+  top: 83px;
+  transition: 0.3s ease;
+}
+
+.hide {
+  display: none;
+}
+
+.margin {
+  margin-bottom: 312px;
+  transition: 0.3s ease;
+}
+
 
 
 /*Common classes*/
@@ -343,20 +359,27 @@ body {
 
 
 
-  &__open-btn,
-  &__close-btn {
+  &__open-btn {
     position: absolute;
     right: 0;
     top: 27px;
   }
 
-
-&__close-img {
-  display: none;
+  
+  &__close-btn {
+    position: absolute;
+    right: 0;
+    top: -80px;
+  }
+  
 }
- 
 
+
+.display {
+  top: 27px;
+  transition: 0.3s;
 }
+
 
 
 //TABLET STYLES---------------------------------------------------------------------------------------------

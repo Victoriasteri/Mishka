@@ -48,6 +48,20 @@ body {
   overflow-x: hidden;
 }
 
+.menu-position {
+  top: 83px;
+  transition: 0.3s ease;
+}
+
+.hide {
+  display: none;
+}
+
+.margin {
+  margin-bottom: 312px;
+  transition: 0.3s ease;
+}
+
 /*Common classes*/
 .wrapper {
   min-height: 100%;
@@ -279,13 +293,20 @@ body {
 .navbar__logo-tablet {
   display: none;
 }
-.navbar__open-btn, .navbar__close-btn {
+.navbar__open-btn {
   position: absolute;
   right: 0;
   top: 27px;
 }
-.navbar__close-img {
-  display: none;
+.navbar__close-btn {
+  position: absolute;
+  right: 0;
+  top: -80px;
+}
+
+.display {
+  top: 27px;
+  transition: 0.3s;
 }
 
 @media (max-width: 1200px) {
